@@ -35,5 +35,6 @@ import Horizontal from "@alphasquad/predictive-search";
 |  keyword | string  | The keyword that is entered by the user in input field  |  true | -  |
 |  getKeyword | Method | The method to get text from input field. | true | false |
 |  wrapperClass | string  | class will be applied on the wrapping div  | false  | - |
-| placeholder | string  | Placeholder text in input field  | false | false |
+|  results | array of string  | This should be an array of string. These results will be displayed below input section.  | true  | - |
+| placeholder | string  | Placeholder text in input field  | false | - |
 
