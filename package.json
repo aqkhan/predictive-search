@@ -1,0 +1,31 @@
+{
+  "name": "@alphasquad/predictive-search",
+  "version": "0.0.1",
+  "description": "Predective search.",
+  "main": "lib/index.js",
+  "types": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqkhan/predictive-search.git"
+  },
+  "keywords": [
+    "Predictive",
+    "search",
+    "Predictive search",
+    "React Predictive search"
+  ],
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "AlphaSquad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqkhan/predictive-search/issues"
+  },
+  "homepage": "https://github.com/aqkhan/predictive-search#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
+}
