@@ -1,6 +1,6 @@
 {
   "name": "@alphasquad/predictive-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Predective search.",
   "main": "lib/index.js",
   "types": "lib",
@@ -27,5 +27,8 @@
     "@types/react": "^16.9.19",
     "react": "^16.12.0",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@alphasquad/outside-click": "0.0.1"
   }
 }

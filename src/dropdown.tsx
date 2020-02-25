@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, Component } from "react";
-import Close from "./closeDiv";
-
+import OutsideClick from "@alphasquad/outside-click";
 interface innerProps {
     results: any[];
     selectValue: (text: string) => void;
@@ -13,7 +12,7 @@ const Dropdown: React.FC<innerProps> = ({ results, selectValue, setShow }) => {
         setShow(false);
     }
 
-    return <Close onClose={setShowMain}>
+    return <OutsideClick onClose={setShowMain}>
         <div className="__resultsWrapper">
             {
                 results.length === 0 ? <div className="__results">No result found</div> :  results.map((item, index) => {
@@ -21,7 +20,7 @@ const Dropdown: React.FC<innerProps> = ({ results, selectValue, setShow }) => {
                 })
             }
         </div>
-    </Close>
+    </OutsideClick>
 }
 
 export default Dropdown;
